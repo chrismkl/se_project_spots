@@ -1,20 +1,13 @@
 .footer {
   display: flex;
   justify-content: center;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  width: 100%;
-  height: 16px;
-  opacity: 1;
-  top: 1340px;
-  left: 668px;
-  margin: 0 auto;
-  padding: 60px 0;
 }
 
 .footer__copyright {
-  display: flex;
-  justify-content: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 50px 0;
 }
