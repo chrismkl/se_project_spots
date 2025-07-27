@@ -21,4 +21,6 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 https://chrismkl.github.io/se_project_spots/
 
-Video will be recorded & added after project approval so i can insure all bugs have been fixed.
+The project video can be found here:
+
+https://drive.google.com/file/d/1QDic2oqgkKutpBNkPle30JXYiAS6ftVI/view?usp=sharing
