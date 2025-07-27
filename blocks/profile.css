@@ -47,9 +47,7 @@
 
 .profile__edit-btn {
   display: flex;
-  justify-content: center;
   margin-top: auto;
-  margin-right: auto;
   gap: 8px;
   padding: 0;
   color: #212121;
