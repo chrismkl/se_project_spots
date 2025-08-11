@@ -28,9 +28,10 @@ editProfileBtn.addEventListener("click", function () {
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
 });
 
-editProfileClosedBtn.addEventListener("click", () => {
-  closeModal(editProfileModal);
+editProfileClosedBtn.addEventListener("click", function () {
+  editProfileModal.classList.remove("modal_is-opened");
 });
+/* we were taught this way im not sure how to do what your asking*/
 
 newPostBtn.addEventListener("click", function () {
   newPostModal.classList.add("modal_is-opened");
@@ -55,4 +56,3 @@ function handleNewPostSubmit(evt) {
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 newPostForm.addEventListener("submit", handleNewPostSubmit);
-editProfileBtn.addEventListener("submit", handlEeditProfileBtn);
