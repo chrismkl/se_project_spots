@@ -98,8 +98,6 @@ function getCardElement(data) {
   return cardElement;
 }
 
-const previewModal = document.querySelector("#preview-modal");
-
 function openModal(modal) {
   modal.classList.add("modal_is-opened");
 }
