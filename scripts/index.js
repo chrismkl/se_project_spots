@@ -98,7 +98,7 @@ function getCardElement({ name, link }) {
   titleEl.textContent = name;
 
   likeBtn.addEventListener("click", () => {
-    likeBtn.classList.toggle("card__like-btn_liked");
+    likeBtn.classList.toggle("card__like-btn_active");
   });
 
   deleteBtn.addEventListener("click", () => {
